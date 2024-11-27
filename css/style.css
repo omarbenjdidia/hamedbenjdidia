@@ -2476,3 +2476,60 @@ width: 99%;
 display:none;
 }
 }
+
+@media only screen and (max-width: 768px) {
+    /* General Styles */
+    body {
+      font-size: 12px;
+      padding: 10px;
+    }
+  
+    h2 {
+      font-size: 28px;
+    }
+  
+    .grid figure {
+      width: 100%; /* Full width for mobile */
+      margin: 10px 0; /* Adjust margins */
+    }
+  
+    .caption {
+      padding: 15px;
+      font-size: 18px;
+      top: 70%; /* Adjust position */
+    }
+  
+    /* Navigation Adjustments */
+    .navStyle ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navStyle ul li {
+      margin: 5px 0;
+    }
+  
+    /* Carousel Adjustments */
+    .carousel,
+    .carousel-inner,
+    .carousel-inner .item {
+      height: auto; /* Allow flexible height */
+    }
+  
+    .carousel-control {
+      font-size: 60px; /* Smaller controls */
+    }
+  
+    /* Header */
+    #header_wrapper {
+      padding: 10px 0;
+      box-shadow: none; /* Simplify for mobile */
+    }
+  
+    .logo a {
+      font-size: 20px;
+    }
+  }
+  
+
