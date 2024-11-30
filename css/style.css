@@ -20,6 +20,7 @@ ul {
 
 img {
     max-width: 100%;
+    height: auto;
 }
 
 a, a:hover, a:active {
@@ -138,6 +139,7 @@ font-size: 50px;
 	min-height: 100%;
 	max-width: 100%;
 	opacity: 0.8;
+    height: auto;
 }
 
 .grid figure figcaption {
@@ -205,6 +207,7 @@ figure.effect-oscar img {
 	opacity: 0.9;
 	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
+    height: auto;
 }
 
 figure.effect-oscar figcaption {
@@ -262,6 +265,7 @@ figure.effect-oscar:hover figcaption {
 
 figure.effect-oscar:hover img {
 	opacity: 0.4;
+    height: auto;
 }
 
 /* Styles
@@ -368,7 +372,7 @@ p {
 }
 
 .navStyle ul li:first-child {
-	/*margin:0px;*/;
+	/*margin:0px;*/
 }
 
 .navStyle ul li:last-child {
@@ -446,6 +450,7 @@ p {
   border: 8px dotted rgba(255, 255, 255, 0.23);
   margin: 0 auto 20px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
+  height: auto;
 }
 #head .title {
   font-family: Alice, Georgia, serif;
@@ -511,6 +516,7 @@ height: 650px;
     position: absolute;
     right: 0px;
     bottom: 0px;
+    height: auto;
 }
 
 .top_left_cont {
@@ -610,18 +616,26 @@ div#main-nav {
 ---------------------------------*/
 
 #service {
-    padding: 60px 0px;
+    padding: 80px 0;
     background: url('../img/slide4.jpg') top left no-repeat !important;
+    background-size: cover; /* Ensure the background scales */
+    height: auto; /* Let height adjust based on content */
 }
+
 #service h2{
   color: #fff;
+  height: auto;
+
 
 }
 .service_wrapper {
     padding: 40px 0 40px;
+    height: auto;
 }
 
 .service_section {
+    height: auto;
+
 }
 
 .service_block {
@@ -629,12 +643,16 @@ div#main-nav {
     padding-left: 15px;
     padding-right: 15px; 
 	position: relative;
+    height: auto;
+
 }
 
 .service_icon {  
     width: 90px;
     height: 85px;
     margin: 0px auto 25px; 
+    height: auto;
+
 }
 
  
@@ -648,6 +666,7 @@ div#main-nav {
     border: 1px solid #FFFFFF;
     border-radius: 50%;
     padding: 6px 0 0;
+
 }
 
 .service_icon i {
@@ -659,6 +678,7 @@ top: 20px;
 z-index: 20;
 display: block;
 text-align: center;
+
 }
 
 .service_block h3 {
@@ -713,7 +733,6 @@ color:#fff;
 }
 
 .service-list-col1 i {
-    display:;
     color: #888;
     font-size: 19px;
     font-style: normal;
@@ -737,6 +756,7 @@ color:#fff;
     color: #333333;
     display: block;
     margin: 0 0 20px 0;
+
 }
 
 a.contact_btn {
@@ -827,10 +847,12 @@ a.contact_btn:hover {
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
+    height: auto;
 }
 
 .Portfolio-box img:hover {
     opacity: 0.6;
+    height: auto;
 }
 
 .Portfolio-nav li a.current {
@@ -841,6 +863,7 @@ a.contact_btn:hover {
 
 img {
     max-width: 100%;
+    height: auto;
 }
 
 /* no transition on .isotope container */
@@ -905,6 +928,7 @@ img {
 .client_profile_pic img {
     border-radius: 50%;
     border: 3px solid #f5f5f5;
+    height: auto;
 }
 
 .client_profile h3 {
@@ -1089,6 +1113,7 @@ background-position-y: 70px;
     border-radius: 0%;
     width: 90%;
     margin: 0 auto;
+    height: auto;
 }
 
 .team_box ul {
@@ -1148,6 +1173,7 @@ margin-bottom: 5px;
 }
  .img-circle {
 border-radius: 50%;
+height: auto;
 }
 .centered {
 text-align: center;
@@ -1514,6 +1540,7 @@ transition: all .3s;
     background: #fff;
     border: #C2C2C2 solid 1px;
     color: #7C7C7C;
+
 }
 
 #filters ul li a:hover h5, #filters ul li a.active h5 {
@@ -1521,6 +1548,7 @@ transition: all .3s;
     color: #FEE16F;
     text-decoration: none;
     border: #000000 solid 1px;
+
 }
 
 .section-title h2 {
@@ -1599,6 +1627,7 @@ padding:80px 0 60px;
     overflow: hidden;
     display: block;
     position: relative;
+    height: auto;
 }
 
 .portfolio-item .portfolio_img img {
@@ -2279,6 +2308,7 @@ div.mc-image {
     transform:scale(1);
     -webkit-transition:-webkit-transform .3s ease-out;
     transition:transform .3s ease-out;
+    height: auto;
 }
 
 .news-content .news-media a{
@@ -2293,6 +2323,7 @@ div.mc-image {
 .news-content .news-media a:hover img{
     -webkit-transform:scale(1.3);
     transform:scale(1.3);
+    height: auto;
 }
 
 .news-content .news-media a:after{
@@ -2372,6 +2403,7 @@ padding: 20px 0 20px;
 }
 #aboutUs img{
 margin-bottom:20px;
+height: auto;
 }
 #aboutUs h3{
 font-size:26px;
@@ -2394,7 +2426,7 @@ margin: 0 18px;
 .page_section.team{
 padding: 40px 0;
 }
-, #clients {
+ #clients {
 padding: 40px 0;
 }
 .client_logos ul li {
