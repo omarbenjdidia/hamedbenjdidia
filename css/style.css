@@ -617,7 +617,7 @@ div#main-nav {
 
 #service {
     padding: 80px 0;
-    background: url('../img/slide4.jpg') top left no-repeat !important;
+    background: url('../img/slide4.jpg') top left !important;
     background-size: cover; /* Ensure the background scales */
     height: auto; /* Let height adjust based on content */
 }
