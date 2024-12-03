@@ -335,6 +335,38 @@ p {
     color: #FF6C71;
 }
 
+.business-card a{
+    float: left;
+	
+    font-size: 28px;
+    line-height: 50px;
+    color: #FF6C71;
+}
+
+.posters a{
+    float: left;
+	
+    font-size: 28px;
+    line-height: 50px;
+    color: #FF6C71;
+}
+
+.photography a{
+    float: left;
+	
+    font-size: 28px;
+    line-height: 50px;
+    color: #FF6C71;
+}
+
+.other a{
+    float: left;
+	
+    font-size: 28px;
+    line-height: 50px;
+    color: #FF6C71;
+}
+
 .res-nav_click {
     display: none;
 }
